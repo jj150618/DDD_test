@@ -25,16 +25,19 @@ Please enter the year :
 
 api 상으로 15개의 입력값을 입력받는 것이 불편하다고 생각하였기 때문에, 현재는 이러한 형태로 제작하였습니다. 
 
-## install dependencies
-```bash
-$ pip install --upgrade pip
-$ pip install -r requirements.txt
-```
+
 
 # API test
 아래 명령어를 통해 api 서버를 실행시킨 후에, 'http://localhost:8000/docs' 해당 링크로 들어가서 API 테스트를 보낼 수 있습니다.
 
 ## local start
+
+# install dependencies
+```bash
+$ pip install --upgrade pip
+$ pip install -r requirements.txt
+```
+
 ```bash
 $ cd ./src
 $ uvicorn main:app --reload --port <your port>
