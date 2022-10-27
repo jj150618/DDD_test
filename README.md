@@ -32,12 +32,13 @@ api 상으로 15개의 입력값을 입력받는 것이 불편하다고 생각�
 
 ## local start
 
-# install dependencies
+### install dependencies
 ```bash
 $ pip install --upgrade pip
 $ pip install -r requirements.txt
 ```
 
+### start web-serverr
 ```bash
 $ cd ./src
 $ uvicorn main:app --reload --port <your port>
