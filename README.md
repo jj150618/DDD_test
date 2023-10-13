@@ -1,4 +1,4 @@
-# assignment
+# DDD 연습
 
 # getting start
 메인 디렉토리에서 실행
